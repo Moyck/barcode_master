@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.journeyapps.barcodescanner.BarcodeView
+        android:id="@+id/zxing_barcode_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.journeyapps.barcodescanner.ViewfinderView
+        android:id="@+id/zxing_viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/zxing_status_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/zxing_gray"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/zxing_msg_default_status"
+        android:textColor="@color/zxing_status_text" />
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/img_flash"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/blink" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_print_hand"
+            android:scaleType="fitXY"
+            android:layout_marginRight="3dp"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:src="@drawable/printhand" />
+
+    </LinearLayout>
+
+
+
+</merge>

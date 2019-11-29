@@ -1,0 +1,2 @@
+include ':app', ':zxing-android-embedded'
+project(':zxing-android-embedded').projectDir = new File('zxing-android-embedded-master/zxing-android-embedded')
