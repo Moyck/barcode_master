@@ -15,6 +15,8 @@ import kotlinx.android.synthetic.main.title_layout.*
 
 class MainActivity : BaseScanActivity(),AdapterView.OnItemClickListener{
 
+
+
     lateinit var adapter: BarcodeAdapter
     private val datas = ArrayList<String>()
 

@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_about.*
 
 class AboutActivity : BaseActivity() {
 
-    val url = "http://www.moyck.com:8080/articles/2019/10/14/1571048467278.html"
+    val url = "http://www.moyck.com:8080/articles/2019/11/29/1575013596580.html"
 
     override fun setLayout(): Int {
         return R.layout.activity_about
