@@ -6,6 +6,14 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 28
+    signingConfigs {
+        config {
+            keyAlias 'mo'
+            keyPassword 'moyck123'
+            storeFile file('../moyck.jks')
+            storePassword 'moyck123'
+        }
+    }
     defaultConfig {
         applicationId "com.moyck.barcodemaster"
         minSdkVersion 26
