@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">条码大师</string>
+    <string name="no_code">未扫描到条形码/二维码</string>
+    <string name="copyed">已复制到剪贴板</string>
+    <string name="click_copy">点击内容可复制到剪贴板</string>
+    <string name="request">请开通相关权限，否则无法正常使用本应用！</string>
+    <string name="isnull">条形码为空</string>
+    <string name="aqnull">二维码为空</string>
+    <string name="svato">保存到</string>
+    <string name="success">成功</string>
+    <string name="savefail">保存失败</string>
+    <string name="mybolog">我的博客</string>
+    <string name="input_barcode">输入条形码内容</string>
+    <string name="create_barcode">生成条形码</string>
+    <string name="savetolocal">保存到本地</string>
+    <string name="input_qr">输入二维码内容</string>
+    <string name="create_aq">生成二维码</string>
 </resources>

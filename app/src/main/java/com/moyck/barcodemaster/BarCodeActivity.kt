@@ -54,7 +54,7 @@ class BarCodeActivity : BaseActivity() {
                     Manifest.permission.WRITE_EXTERNAL_STORAGE
                 )
             ) {
-                Toast.makeText(this, "请开通相关权限，否则无法正常使用本应用！", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.request), Toast.LENGTH_SHORT).show()
             }
             //申请权限
             ActivityCompat.requestPermissions(
@@ -72,15 +72,15 @@ class BarCodeActivity : BaseActivity() {
             return
         }
         if (bitmap == null){
-            Toast.makeText(this, "条形码为空", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, resources.getString(R.string.isnull), Toast.LENGTH_LONG).show()
             return
         }
         try {
             FileUtil.save2Album(bitmap)
             val path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
-            Toast.makeText(this, "保存到${path.absolutePath}成功", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, resources.getString(R.string.svato)+{path.absolutePath}+resources.getString(R.string.success), Toast.LENGTH_LONG).show()
         } catch (ex: Exception) {
-            Toast.makeText(this, "保存失败", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, resources.getString(R.string.savefail), Toast.LENGTH_LONG).show()
         }
     }
 

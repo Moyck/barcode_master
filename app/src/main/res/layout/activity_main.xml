@@ -47,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/img_park"
                         android:layout_centerHorizontal="true"
-                        android:text="未扫描到条形码/二维码" />
+                        android:text="@string/no_code" />
 
             </RelativeLayout>
 
@@ -116,7 +116,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:text="条码生成"
+                            android:text="@string/create_barcode"
                             android:textColor="#474747"
                             android:textSize="18sp" />
 
@@ -147,7 +147,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:text="二维码生成"
+                            android:text="@string/create_aq"
                             android:textColor="#474747"
                             android:textSize="18sp" />
 
@@ -177,7 +177,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:text="我的博客"
+                            android:text="@string/mybolog"
                             android:textColor="#474747"
                             android:textSize="18sp" />
 

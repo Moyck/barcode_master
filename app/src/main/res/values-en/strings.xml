@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Barcode Master</string>
+    <string name="no_code">No barcode / QR code scanned</string>
+    <string name="copyed">Copied to clipboard</string>
+    <string name="click_copy">Click to copy to clipboard</string>
+    <string name="request">Please enable relevant permissions, otherwise this application cannot be used normally!</string>
+    <string name="isnull">Barcode is empty</string>
+    <string name="svato">Save to</string>
+    <string name="aqnull">QR code is empty</string>
+    <string name="success">Success</string>
+    <string name="savefail">Save failed</string>
+    <string name="mybolog">My Blog</string>
+    <string name="input_barcode">Enter barcode content</string>
+    <string name="create_barcode">Barcode</string>
+    <string name="savetolocal">Save to local</string>
+    <string name="input_qr">Enter QR code content</string>
+    <string name="create_aq">QR code</string>
+</resources>

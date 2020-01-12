@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:textColor="@color/white"
-                android:text="条形码生成"/>
+                android:text="@string/create_barcode"/>
 
     </RelativeLayout>
 
@@ -41,7 +41,7 @@
     <TextView
             android:textColor="#363636"
             android:layout_margin="10dp"
-            android:text="输入条形码内容"
+            android:text="@string/input_barcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -58,13 +58,13 @@
 
 
         <Button
-                android:text="生成条形码"
+                android:text="@string/create_barcode"
                 android:id="@+id/btn_barcode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         <Button
-                android:text="保存到本地"
+                android:text="@string/savetolocal"
                 android:id="@+id/btn_save"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>

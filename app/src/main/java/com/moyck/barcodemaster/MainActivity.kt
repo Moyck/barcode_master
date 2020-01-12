@@ -50,14 +50,14 @@ class MainActivity : BaseScanActivity(),AdapterView.OnItemClickListener{
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         CopyUtil.copy(this,datas[position])
-        Toast.makeText(this,"已复制到剪贴板",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,resources.getString(R.string.copyed),Toast.LENGTH_LONG).show()
     }
 
     override fun scanResultCallBack(content: String) {
         datas.add(content)
         adapter.notifyDataSetChanged()
         if (datas.size == 1){
-            Toast.makeText(this,"点击内容可复制到剪贴板",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,resources.getString(R.string.click_copy),Toast.LENGTH_LONG).show()
             re_l.visibility = View.GONE
             ls_barcode.visibility = View.VISIBLE
         }
